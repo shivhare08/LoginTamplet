@@ -1,0 +1,73 @@
+@media(max-width:767px){
+    .confirm{
+        margin-top: 0.9rem;
+    }
+    
+    .account-already h5{
+        font-size: 15px;
+    }
+
+    .section-one .section-one-element{
+        margin-top: 2rem;
+    }
+
+    .button-continue button{
+        width: 82%;
+        /* margin-left: 4%; */
+        margin-top: 2%;
+        justify-content: center
+    }
+    .check-box{
+        display: flex;
+        padding: 0!important;
+        margin-right: 10%;
+    }
+    .check-box p{
+        font-size: 16px;
+        /* padding-right: 20%; */
+    }
+
+    .child-div .real-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width:576px){
+    .account-already{
+        display: none;
+    }
+
+    .section-one{
+        box-shadow: none;
+    }
+
+    .account-already-mobile{
+        display: block!important;
+    }
+
+    .check-box p{
+        font-size: 13px;
+        /* padding-right: 20%; */
+    }
+}
+
+
+@media(max-width:1200px){
+    .nice{
+        display: none;
+    }
+
+    .section-two{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .section-one{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 20px;
+    }
+}
